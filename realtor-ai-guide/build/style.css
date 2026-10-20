@@ -70,3 +70,18 @@ td{padding:.08in .11in;border-bottom:1px solid var(--rule);vertical-align:top}
 tr:nth-child(even) td{background:#faf8f3}
 td strong{white-space:nowrap}
 code{font:400 9pt 'IBM Plex Mono',monospace;background:var(--tint);padding:0 3px;border-radius:2px}
+
+/* lead magnet */
+.mini-doc .cover h1{font-size:34pt}
+section.mini h2{font:700 19pt/1.2 'Playfair Display',serif;color:var(--navy);margin:.4in 0 .14in;padding-bottom:.1in;border-bottom:2px solid var(--gold);break-after:avoid}
+section.mini:first-of-type h2{margin-top:.1in}
+section.cta{break-before:page;text-align:center;padding-top:.5in}
+.cta-logo{width:2.6in}
+.cta .gold-rule{margin:.45in auto .35in}
+.cta h2{font:700 26pt 'Playfair Display';color:var(--navy);margin:0 0 .2in}
+.cta ul{display:inline-block;text-align:left;margin:.15in 0 .35in}
+.cta-btn{display:inline-block;background:var(--navy);color:#fff!important;border:0!important;padding:.15in .45in;border-radius:3px;font:600 11pt 'Inter';letter-spacing:.04em;margin:0}
+.cta-btn.plain{margin:.0in 0}
+.cta-url{font-size:9pt;color:var(--muted);margin-top:.12in}
+.cta-small{font-size:7.8pt;color:var(--muted);margin-top:.6in}
+.mini-doc pre{break-inside:avoid}

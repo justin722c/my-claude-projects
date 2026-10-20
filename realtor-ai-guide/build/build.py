@@ -107,6 +107,26 @@ def build(src, name, cfg, guide):
     open(hp, "w").write(doc(pages)); render(hp, pdf)
     print(name, "->", pdf, "pages:", len(PdfReader(pdf).pages), "toc:", pages)
 
+def build_mini(src, name, cfg):
+    text = open(os.path.join(ROOT, src)).read()
+    text = re.sub(r"^# .*\n", "", text, count=1)
+    parts = re.split(r"(?m)^## ", text)
+    secs = "".join(f'<section class="mini"><h2>{html.escape(p.split(chr(10),1)[0])}</h2>{md_to_html(p.split(chr(10),1)[1])}</section>' for p in parts if p.strip())
+    url = os.environ.get("GUIDE_URL", "").strip()
+    btn = (f'<a class="cta-btn" href="{url}">Get The 15-Minute Agent &rarr;</a><p class="cta-url">{url}</p>' if url
+           else '<p class="cta-btn plain">Get The 15-Minute Agent</p><p class="cta-url">Find the link in the email that delivered this guide.</p>')
+    cta = f"""<section class="cta"><img src="../assets/logo-navy.png" class="cta-logo">
+<div class="gold-rule"></div><h2>Want the full system?</h2>
+<p><strong>The 15-Minute Agent</strong> is a 21-page guide with everything you just tried, plus:</p>
+<ul><li>A 30-minute setup so AI sounds like <em>you</em></li><li>7 copy-paste workflows, including deadline tracking and weekly market posts</li>
+<li>4 assistants you build once: transactions, content, referrals, listing presentations</li><li>Fair Housing, privacy, and verification guardrails</li><li>A 30-day plan to make it stick</li></ul>
+{btn}<p class="cta-small">&copy; 2026 Team Smith Homes. Educational content, not legal advice. Review all AI output before use.</p></section>"""
+    doc = (f'<!doctype html><html><head><meta charset="utf-8"><title>{cfg["title"]}</title><style>{FONTS}{CSS}</style></head><body class="mini-doc">'
+           + cover(cfg["logo"], cfg["kicker"], cfg["title"], cfg["subtitle"], cfg["note"]) + secs + cta + "</body></html>")
+    hp = os.path.join(BUILD, name + ".html"); pdf = os.path.join(OUT, name + ".pdf")
+    open(hp, "w").write(doc); render(hp, pdf)
+    print(name, "->", pdf, "pages:", len(PdfReader(pdf).pages))
+
 os.makedirs(OUT, exist_ok=True)
 build("01-the-15-minute-agent.md", "The-15-Minute-Agent_Team-Smith-Homes", dict(
     title="The 15-Minute Agent", subtitle="AI Prompts &amp; Workflows for Realtors",
@@ -116,3 +136,7 @@ build("03-marketing-plan.md", "Launch-Playbook_Team-Smith-Homes_INTERNAL", dict(
     title="Launch Playbook", subtitle="A 60-day, step-by-step marketing plan for<br>&ldquo;The 15-Minute Agent&rdquo;",
     kicker="TEAM SMITH HOMES &middot; INTERNAL", logo="logo-white.png", cls="plan",
     note="Internal planning document &mdash; not for sale or distribution"), False)
+build_mini("06-free-lead-magnet.md", "FREE_3-AI-Prompts-for-Agents_Team-Smith-Homes", dict(
+    title="3 AI Prompts Every Agent Can Use Tomorrow", subtitle="Copy. Paste. Save hours.",
+    kicker="A TEAM SMITH HOMES FREE GUIDE", logo="logo-white.png",
+    note="Free guide &nbsp;&middot;&nbsp; 2026"))

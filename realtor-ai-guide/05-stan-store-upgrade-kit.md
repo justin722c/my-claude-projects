@@ -26,7 +26,7 @@ Reviews we found (not Stan's own page) say: **Creator ~$29/mo** and **Creator Pr
 - **Type:** Lead magnet / free digital download (email required)
 - **Title:** Free: 3 AI Prompts Every Agent Can Use Tomorrow
 - **Description:** `Three copy-and-paste prompts that save busy Realtors hours: a Morning Briefing, a Listing Launch package, and a Speed-to-Lead reply. Enter your email and I'll send it right over.`
-- **File:** create a 3–4 page PDF from Chapter 3 workflows 1–3 (your own wording). *(I can build this next.)*
+- **File:** `output/FREE_3-AI-Prompts-for-Agents_Team-Smith-Homes.pdf` (5 pages; branded; ends with a pitch for the full guide)
 - **Button text:** Send me the prompts
 
 ## 4. Product B: The 15-Minute Agent (paid)
