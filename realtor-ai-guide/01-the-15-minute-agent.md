@@ -31,26 +31,54 @@ None of that is selling. All of it is necessary.
 
 ---
 
-## Chapter 2 — 20-Minute Setup: Build Your "Agent Brain"
+## Chapter 2 — Build Your "Agent Brain" (Soul File First, 30 Minutes)
 
-Single prompts are okay. A **Claude Project** that already knows you is far better — you stop re-explaining yourself every time.
+Most agents get generic AI output because they give AI nothing to work with. The fix is two layers:
 
-**Step 1.** In Claude, create a new Project named *Agent Brain*.
+1. **Your SOUL file:** who you are, in your own words. This is what keeps AI from flattening your voice into "nestled, boasts, charming."
+2. **Your Project instructions:** the practical facts (market, specialty, rules).
 
-**Step 2.** Paste this into the Project's instructions, filled in:
+Put both inside a **Claude Project** and every workflow in Chapter 3 gets sharper, because you stop re-explaining yourself.
+
+### Step 1: Build your SOUL file (about 10 minutes)
+
+The free **Soulprint** tool from the Free Agent Movement ([buildsoulprint.freeagentmovement.io](https://buildsoulprint.freeagentmovement.io/)) runs a short, guided interview on your phone. You can answer out loud or typed, one question at a time, with no right answers. It then gives you:
+
+| You get | What it is |
+|---|---|
+| **Your SOUL file** | A written identity document in your own words: your three words, your real "why," your "nevers," and the call only you can make |
+| **Your Free Agent Score** | A read on where you stand across four shifts: **identity, systems, leverage, and visibility**, with one move to make on each. A mirror, not a grade |
+| **A paste-anywhere prompt** | A clean version for ChatGPT, Claude, or any AI tool, so it speaks as you from the first message |
+
+Download it as a PDF or copy the whole thing to your clipboard.
+
+**What a good SOUL file sounds like.** Specific and a little uncomfortable. The tool's own sample, for a fictional agent, includes lines such as a personal meaning behind each of her three words, a "why" rooted in a family experience with a mortgage nobody explained, and "nevers" like *never push a couple into a number that breaks them in month four* and *never say "dream" when you mean "monthly payment."* Notice what makes it work: real stories, real limits, no marketing language. Yours should sound like you, not like anyone's sample.
+
+**If you'd rather write it by hand,** answer these in plain, honest sentences:
+
+```
+1. Three words that describe how I work, and what each one really means to me.
+2. Why I do this. The real reason, with a real moment behind it.
+3. My nevers. Things I will not do, say, or push a client into,
+   even if it costs me a deal.
+4. The call only I can make. Where my judgment replaces any tool.
+5. How I talk. Three real texts or emails I've sent that sound like me.
+6. Words and phrases I'd never use.
+```
+
+### Step 2: Create the Claude Project
+
+In Claude, create a Project called *Agent Brain*. Paste your **SOUL file** into the Project knowledge (or the top of the instructions), then add this below it:
 
 ```
 You are my real estate assistant. I'm a licensed agent.
+The SOUL file above is who I am. Match its voice, honor its nevers,
+and never contradict it.
 
-ABOUT ME
+ABOUT MY BUSINESS
 Name: [NAME] | Brokerage: [BROKERAGE] | Market: [CITIES/NEIGHBORHOODS]
 Specialty: [first-time buyers / luxury / investors / relocation / etc.]
 Typical client: [DESCRIBE]
-
-MY VOICE
-[Paste 3 texts or emails you've actually written.]
-Rules: short sentences, warm but direct, no hype.
-Never use: nestled, boasts, charming, stunning, must-see, dream home.
 
 HOW TO WORK
 - Ask me for missing facts. Never invent property details, prices, or statistics.
@@ -60,9 +88,24 @@ HOW TO WORK
 - If something needs legal or compliance review, say so.
 ```
 
-**Step 3.** Add a short file or note: your active clients (first names + stage only), your active listings, and your typical transaction timeline.
+### Step 3: Add your working notes
+
+Add a short note with your active clients (first names and stage only), your active listings, and your typical transaction timeline.
 
 > **Privacy rule of thumb:** use first names and stages, not SSNs, financial account details, or full contract PDFs unless your brokerage has approved the tool for that data.
+
+### Step 4: Use your Free Agent Score as your roadmap
+
+Your score points to one move on each of the four shifts. Map them to this guide:
+
+| Shift | Meaning | Start with |
+|---|---|---|
+| **Identity** | Clear on who you are and who you serve | Your SOUL file (this chapter) |
+| **Systems** | Repeatable processes instead of memory | Workflows 1, 3, 5 |
+| **Leverage** | Your time multiplied by tools and help | Workflows 2, 6 |
+| **Visibility** | People know you and think of you | Workflows 4, 7 |
+
+Pick the shift with your lowest score and start with those workflows.
 
 ---
 
@@ -100,7 +143,7 @@ Create:
 4. A 2-sentence text for buyer's agents.
 5. A checklist of facts you assumed or couldn't verify.
 
-Match my voice. Fair Housing safe: describe the property, not the people.
+Match my voice (see my SOUL file). Fair Housing safe: describe the property, not the people.
 ```
 
 **Worked example (output style):**
@@ -235,6 +278,7 @@ Also give me a 20-second video script version.
 
 ## Credits & Sources
 
+- Soulprint / SOUL file and Free Agent Score concepts: the Free Agent Movement's free [Soulprint tool](https://buildsoulprint.freeagentmovement.io/). Described from the tool's public pages; get permission and confirm their terms before reselling content that reproduces it.
 - Workflow concepts inspired by Lighthaus's free "3 Claude Prompts" PDF (Raven Mok, CPA). Their full 70-prompt system is a separate product; prompts here are independently written.
 - NAR 2025 Technology Survey via [HousingWire](https://www.housingwire.com/articles/nar-2025-technology-survey-realtor-tech-usage-trends/) and [NAR](https://www.nar.realtor/press-releases/realtors-embrace-ai-digital-tools-to-enhance-client-service-nar-survey-finds).
 

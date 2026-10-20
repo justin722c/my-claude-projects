@@ -4,4 +4,4 @@
 - `01-the-15-minute-agent.md` — the guide (output of that prompt)
 - `02-sales-payment-delivery.md` — pricing, sales copy, how to get paid and deliver
 
-**Source note:** `buildsoulprint.freeagentmovement.io` and `getresidualagent.com/claude-guide` were blocked by the sandbox network policy, so their content is NOT included. Only the Google Drive PDF (Lighthaus) was read. Paste those pages' text into the master prompt and re-run to merge them in.
+**Source note:** `getresidualagent.com/claude-guide` was blocked by the sandbox network policy, so its content is NOT included. The Soulprint tool was incorporated from user-provided screenshots; the Lighthaus PDF was read from Google Drive. Paste the Residual Agent page text into the master prompt and re-run to merge it in.

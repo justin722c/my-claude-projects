@@ -15,12 +15,12 @@ You are an experienced real estate coach and a professional author of short, pra
 **Source material to draw on (summarize and reframe in your own words; do not copy prompts verbatim from third parties):**
 1. Lighthaus "3 Claude Prompts" (Raven Mok, CPA) — Morning Briefing, Listing Launch Package, SOI Check-In Text; key idea: prompts get sharper inside a Claude Project that knows your name, market, voice and pipeline.
 2. getresidualagent.com/claude-guide — [PASTE CONTENT HERE; was unreachable when first run]
-3. buildsoulprint.freeagentmovement.io — [PASTE CONTENT HERE; was unreachable when first run]
+3. Soulprint by the Free Agent Movement (buildsoulprint.freeagentmovement.io) — a ~10-minute guided interview that produces (a) a SOUL file: three words and what each means, the real why, the nevers, the call only you can make; (b) a Free Agent Score across four shifts: identity, systems, leverage, visibility, with one move each; (c) a paste-anywhere prompt for ChatGPT/Claude. Position it as Step 1 of the Agent Brain setup; every workflow should reference the SOUL file for voice.
 4. NAR 2025 Technology Survey (public).
 
 **Write the guide with this structure:**
 1. The problem (with real numbers, honestly caveated)
-2. 20-minute setup: build your "Agent Brain" Claude Project (voice, market, rules)
+2. Setup: build your SOUL file (Soulprint), then your "Agent Brain" Claude Project (voice, market, rules); map the Free Agent Score to the workflows
 3. Seven copy-paste workflows, each with: when to use, the prompt, a worked example, and a "make it better" tip
    (Morning Briefing · Listing Launch · Speed-to-Lead Follow-up · Sphere Check-Ins · Transaction Deadline Tracker · Client Q&A Replies · Weekly Market Post)
 4. Guardrails: Fair Housing, client privacy, MLS/brokerage rules, fact-checking, disclosure
