@@ -54,7 +54,7 @@ Check each platform's current fees on its pricing page before choosing. I haven'
 
 ## 4. Before You Launch
 
-- [ ] Paste in the getresidualagent.com guide text (couldn't be reached) and revise
+- [ ] Decide how to handle the third-party source material (Lighthaus, Soulprint, Residual Agent): permission, partnership, or affiliate/companion positioning
 - [ ] Decide whether to credit/link Lighthaus and the other creators; get permission if you reuse their wording
 - [ ] Add your name, brokerage-neutral branding, and a contact email
 - [ ] Verify all stats and re-check platform fees
