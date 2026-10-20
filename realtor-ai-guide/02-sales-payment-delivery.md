@@ -28,6 +28,8 @@ Check each platform's current fees on its pricing page before choosing. I haven'
 **Headline:** Stop Writing the Same Listing Description Four Times.
 **Sub:** 7 copy-paste AI workflows built for working Realtors. Set up in 20 minutes.
 
+- Build your SOUL file so AI sounds like you, not a robot
+- Four buildable AI assistants: transactions, content, referrals, listing presentations
 - Morning Briefing that plans your day
 - Listing launch: MLS copy + social + sphere email in one run
 - Speed-to-lead replies that sound like you
