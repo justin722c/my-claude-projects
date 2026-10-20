@@ -42,7 +42,7 @@
 
 ### Day 4: Create the free mini-guide (lead magnet)
 - [ ] 3–4 pages: *"3 AI Prompts Every Agent Can Use Tomorrow"* (Morning Briefing, Listing Launch, Speed-to-Lead) plus the SOUL-file idea.
-- [ ] Done: `output/FREE_3-AI-Prompts-for-Agents_Team-Smith-Homes.pdf`. After your Payhip product exists, rebuild with your link: `GUIDE_URL="https://payhip.com/b/XXXX" python3 build/build.py`.
+- [ ] Done: `output/FREE_3-AI-Prompts-for-Agents_Team-Smith-Homes.pdf`. After your Payhip product exists, rebuild with your link: `GUIDE_URL="https://payhip.com/b/osB7a" python3 build/build.py` (already done).
 - [ ] *Do not* reuse text from other creators' free PDFs. Use your own prompts from the guide.
 
 ### Day 5: Build one landing page
