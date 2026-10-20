@@ -3,7 +3,7 @@
 **Goal:** turn free-guide subscribers into buyers of *The 15-Minute Agent* without hype.
 **Voice:** warm, direct, short sentences. Rewrite any line that doesn't sound like you.
 
-**Fill in before sending:** `[First Name]` (insert with Constant Contact's personalization feature), `https://payhip.com/b/osB7a`, `[PRICE]`, `[YOUR FIRST NAME]`, and the guarantee line (only if you'll honor it).
+**Fill in before sending:** `[First Name]` (insert with Constant Contact's personalization feature), `[PRICE]`, `[YOUR FIRST NAME]`, `[DOWNLOAD LINK]` (your free PDF link), and the guarantee line (only if you'll honor it). The Payhip link is already filled in.
 
 ---
 
