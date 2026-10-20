@@ -1,0 +1,72 @@
+:root{--navy:#0e1729;--gold:#b8975a;--ink:#1b2433;--muted:#5c667a;--tint:#f5f2ea;--rule:#ddd6c6;}
+@page{size:Letter;margin:0.95in 0.9in 0.95in 0.9in;
+  @bottom-left{content:"TEAM SMITH HOMES";font:500 7.5pt 'Inter',sans-serif;letter-spacing:.2em;color:#8a8f9c;}
+  @bottom-right{content:counter(page);font:500 8pt 'Inter',sans-serif;color:#8a8f9c;}}
+@page cover{margin:0;@bottom-left{content:none}@bottom-right{content:none}}
+*{box-sizing:border-box}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font:10.4pt/1.62 'Inter',sans-serif;color:var(--ink);margin:0;orphans:3;widows:3}
+
+/* cover + back */
+.cover,.back{page:cover;background:var(--navy);color:#fff;width:8.5in;height:10.96in;position:relative;break-after:page;overflow:hidden}
+.cover-inner{position:absolute;left:0;right:0;top:1.45in;text-align:center;padding:0 1in}
+.cover-logo{width:3.5in;display:block;margin:0 auto}
+.gold-rule{width:.9in;height:2px;background:var(--gold);margin:.8in auto .55in}
+.cover-kicker{font:500 8.5pt 'Inter';letter-spacing:.32em;color:var(--gold)}
+.cover h1{font:700 44pt/1.08 'Playfair Display',serif;margin:.28in 0 .2in;color:#fff}
+.cover-sub{font:italic 500 17pt/1.35 'Playfair Display',serif;color:#d8dbe3;margin:0}
+.cover-foot{position:absolute;bottom:.7in;left:0;right:0;text-align:center;font:500 8pt 'Inter';letter-spacing:.14em;color:#9aa3b5;text-transform:uppercase}
+.back{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;break-after:auto}
+.back img{width:2.6in}
+.back .thanks{font:italic 500 16pt 'Playfair Display';margin:.6in 0 .3in;color:#e6e8ee}
+.back .small{font-size:8pt;color:#9aa3b5;line-height:1.7}
+
+/* contents */
+.toc{break-after:page;padding-top:.3in}
+.toc-h{font:700 28pt 'Playfair Display';color:var(--navy);margin:0 0 .35in;padding-bottom:.15in;border-bottom:2px solid var(--gold)}
+.toc ul{list-style:none;margin:0;padding:0}
+.toc li{display:flex;align-items:baseline;padding:.115in 0;border-bottom:1px solid var(--rule)}
+.toc .tn{width:1.25in;font:500 7.5pt 'Inter';letter-spacing:.18em;color:var(--gold);text-transform:uppercase}
+.toc .tt{flex:1;font:500 13pt 'Playfair Display';color:var(--navy)}
+.toc .tp{font:500 10pt 'Inter';color:var(--muted)}
+.plan .toc .tn{width:0}
+.notice{margin-top:.5in;font-size:8.6pt;color:var(--muted)}
+.notice blockquote{background:none;border-left:2px solid var(--gold);margin:0;padding:.05in .2in}
+
+/* chapters */
+section.chapter{break-before:page}
+section.chapter:first-of-type{break-before:auto}
+.kicker{font:500 8.5pt 'Inter';letter-spacing:.3em;color:var(--gold);margin-top:.5in}
+.chapter h2{font:700 27pt/1.15 'Playfair Display';color:var(--navy);margin:.1in 0 .4in;padding-bottom:.2in;border-bottom:2px solid var(--gold)}
+.phase h2{font:700 20pt/1.2 'Playfair Display';color:var(--navy);margin:.45in 0 .18in;padding-bottom:.1in;border-bottom:2px solid var(--gold);break-after:avoid}
+h3{font:700 14.5pt/1.25 'Playfair Display';color:var(--navy);margin:.34in 0 .1in;break-after:avoid}
+.phase h3{font-size:12.5pt;margin-top:.25in}
+h4{font:600 10pt 'Inter';letter-spacing:.06em;text-transform:uppercase;color:var(--gold);margin:.2in 0 .06in;break-after:avoid}
+p{margin:.08in 0 .12in}
+strong{color:var(--navy);font-weight:650}
+a{color:#7a5d27;text-decoration:none;border-bottom:1px solid #d9c6a0}
+hr{border:0;border-top:1px solid var(--rule);margin:.3in 0}
+section>hr:last-child{display:none}
+ul,ol{margin:.08in 0 .14in;padding-left:.28in}
+li{margin:.04in 0}
+li::marker{color:var(--gold)}
+li.check{list-style:none;position:relative}
+li.check::before{content:"";position:absolute;left:-.27in;top:.07em;width:.13in;height:.13in;border:1.3px solid var(--navy);border-radius:2px}
+li.check::marker{content:""}
+
+/* prompts */
+pre{position:relative;background:var(--tint);border:1px solid var(--rule);border-left:3px solid var(--navy);border-radius:3px;
+  padding:.3in .2in .16in .2in;margin:.2in 0;white-space:pre-wrap;word-break:break-word;break-inside:auto}
+pre::before{content:"COPY-PASTE PROMPT";position:absolute;top:.09in;left:.2in;font:500 6.6pt 'Inter';letter-spacing:.22em;color:var(--gold)}
+pre code{font:400 8.5pt/1.55 'IBM Plex Mono',monospace;color:#1d2740}
+.ph{color:#8a5b00;background:#f1e4c3;border-radius:2px;padding:0 1px}
+
+/* callouts + tables */
+blockquote{margin:.2in 0;padding:.14in .2in;background:#eef1f6;border-left:3px solid var(--gold);border-radius:0 3px 3px 0;color:#2b3547}
+blockquote p{margin:.04in 0}
+table{width:100%;border-collapse:collapse;margin:.2in 0;font-size:9.3pt;break-inside:avoid}
+th{background:var(--navy);color:#fff;text-align:left;font:600 8.2pt 'Inter';letter-spacing:.06em;padding:.08in .11in}
+td{padding:.08in .11in;border-bottom:1px solid var(--rule);vertical-align:top}
+tr:nth-child(even) td{background:#faf8f3}
+td strong{white-space:nowrap}
+code{font:400 9pt 'IBM Plex Mono',monospace;background:var(--tint);padding:0 3px;border-radius:2px}

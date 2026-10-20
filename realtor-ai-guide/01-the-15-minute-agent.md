@@ -476,4 +476,4 @@ Start with the Projects. Reach for Cowork when you're ready to automate.
 - Workflow concepts inspired by Lighthaus's free "3 Claude Prompts" PDF (Raven Mok, CPA). Their full 70-prompt system is a separate product; prompts here are independently written.
 - NAR 2025 Technology Survey via [HousingWire](https://www.housingwire.com/articles/nar-2025-technology-survey-realtor-tech-usage-trends/) and [NAR](https://www.nar.realtor/press-releases/realtors-embrace-ai-digital-tools-to-enhance-client-service-nar-survey-finds).
 
-*© [YEAR] [YOUR NAME]. For personal use by the purchaser. Do not redistribute.*
+*© 2026 Team Smith Homes. All rights reserved. For personal use by the purchaser. Please do not copy or redistribute.*
