@@ -36,7 +36,7 @@
 - [ ] Do a test purchase to confirm the file arrives.
 
 ### Day 3: Build the email list tool
-- [ ] Use a free email tool (e.g., MailerLite, Beehiiv, or Kit) so your list is yours if you change stores. Check each tool's free-tier limits first.
+- [ ] Use **Constant Contact** (or a free tool like MailerLite or Kit) so your list is yours if you change stores. Setup and ready-to-paste emails are in `07-nurture-emails.md`. Check plan features and pricing first.
 - [ ] Create a signup form for the free mini-guide.
 - [ ] Add a visible unsubscribe link and your business mailing address (required by CAN-SPAM).
 

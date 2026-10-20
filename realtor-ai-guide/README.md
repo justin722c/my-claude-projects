@@ -4,6 +4,7 @@
 - `01-the-15-minute-agent.md` — the guide (output of that prompt)
 - `02-sales-payment-delivery.md` — pricing, sales copy, how to get paid and deliver
 - `04-payhip-setup-kit.md` — paste-ready Payhip store setup (recommended start)
+- `07-nurture-emails.md` — 5-email sequence for Constant Contact
 - `05-stan-store-upgrade-kit.md` — Stan Store setup for later
 - `03-marketing-plan.md` — 60-day step-by-step launch and marketing plan
 - `output/` — finished branded PDFs (the guide to sell; the internal launch playbook)
