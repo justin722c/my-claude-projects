@@ -31,12 +31,12 @@
 - [ ] Choose a guarantee (e.g., 7-day refund). Decide it now and put it on the sales page.
 
 ### Day 2: Set up payment and delivery
-- [ ] Create a **Gumroad** or **Stan Store** account (see *Sales, Payment & Delivery*). Connect payouts.
+- [ ] Create a **Payhip** account (free plan to start; see `04-payhip-setup-kit.md`). Connect payouts.
 - [ ] Upload the PDF, add the sales copy and the delivery email.
-- [ ] Do a test purchase with a discount code to confirm the file arrives.
+- [ ] Do a test purchase to confirm the file arrives.
 
 ### Day 3: Build the email list tool
-- [ ] Use the email feature in Stan/Gumroad, or a free email tool (e.g., MailerLite, Beehiiv, or Kit). Check each tool's free-tier limits first.
+- [ ] Use a free email tool (e.g., MailerLite, Beehiiv, or Kit) so your list is yours if you change stores. Check each tool's free-tier limits first.
 - [ ] Create a signup form for the free mini-guide.
 - [ ] Add a visible unsubscribe link and your business mailing address (required by CAN-SPAM).
 
@@ -154,7 +154,7 @@ Draft captions, scripts, and carousels with Claude (this is exactly what your gu
 **Goal:** reach new audiences without needing to post every day.
 
 ### 1) Affiliate / referral program
-- [ ] Enable affiliates in Gumroad or Stan (check each platform's current affiliate settings and fees).
+- [ ] Enable affiliates in Payhip (check which plan includes it and the current fees), or upgrade to Stan Store's higher tier if you prefer its affiliate tools.
 - [ ] Offer **30–40%** commission (a common range; your call).
 - [ ] Recruit agent coaches, real estate YouTubers, newsletter writers, and team leaders. Give them a swipe file: 3 posts, 1 email, and the logo.
 - [ ] **Disclosure:** affiliates must clearly disclose their relationship (FTC rules). Put that in your affiliate instructions.

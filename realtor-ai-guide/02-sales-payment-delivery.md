@@ -1,8 +1,8 @@
 # Sales, Payment & Delivery Plan
 
-## 1. Recommended: Stan Store or Gumroad (set up in ~30 minutes)
+## 1. Recommended: Payhip (free plan) to start; Stan Store when sales justify it
 
-Both take payment and **automatically deliver the file** after purchase. No coding, no manual emailing.
+All of these take payment and **automatically deliver the file** after purchase. No coding, no manual emailing. **Start with Payhip** (see `04-payhip-setup-kit.md`); upgrade to Stan Store later (`05-stan-store-upgrade-kit.md`).
 
 | | Stan Store | Gumroad | Stripe Payment Link |
 |---|---|---|---|
@@ -14,8 +14,8 @@ Both take payment and **automatically deliver the file** after purchase. No codi
 Check each platform's current fees on its pricing page before choosing. I haven't verified current rates.
 
 **Steps**
-1. Export `01-the-15-minute-agent.md` to PDF (Claude can produce a designed PDF/Canva version).
-2. Create a Gumroad or Stan account; connect your bank/Stripe for payouts.
+1. Use the finished PDF: `output/The-15-Minute-Agent_Team-Smith-Homes.pdf`.
+2. Create a Payhip account; connect your bank/Stripe for payouts.
 3. New product, upload the PDF, set price, paste the sales copy below.
 4. Set a post-purchase message (delivery email below). The platform sends the download link automatically.
 5. Buy it yourself with a discount code to test the full flow.

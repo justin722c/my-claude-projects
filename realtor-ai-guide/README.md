@@ -3,6 +3,8 @@
 - `00-master-prompt.md` — the prompt that generates the product
 - `01-the-15-minute-agent.md` — the guide (output of that prompt)
 - `02-sales-payment-delivery.md` — pricing, sales copy, how to get paid and deliver
+- `04-payhip-setup-kit.md` — paste-ready Payhip store setup (recommended start)
+- `05-stan-store-upgrade-kit.md` — Stan Store setup for later
 - `03-marketing-plan.md` — 60-day step-by-step launch and marketing plan
 - `output/` — finished branded PDFs (the guide to sell; the internal launch playbook)
 - `assets/` — Team Smith Homes logo (extracted from the hat photo; swap in your vector/PNG logo for best quality) and fonts

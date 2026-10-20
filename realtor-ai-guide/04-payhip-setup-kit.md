@@ -1,29 +1,27 @@
-# Stan Store Setup Kit (paste-ready)
+# Payhip Setup Kit (paste-ready)
 
-Everything below is written so you can copy it straight into Stan Store. Screens and plan details change, so follow Stan's on-screen prompts and check its own pricing page before paying.
+Payhip is the recommended starting platform: free plan, automatic delivery of your PDF, and no monthly bill while you test. Screens and plan details change, so follow Payhip's on-screen prompts and **check payhip.com/pricing before you start**.
 
-## 0. Pick your plan first (verify on Stan's pricing page)
-Reviews we found (not Stan's own page) say: **Creator ~$29/mo** and **Creator Pro ~$99/mo**, no Stan cut on sales (payment processing still applies, roughly 2.9% + 30¢ via Stripe/PayPal). They also say discount codes, affiliate tools, and email broadcasts sit on the **Pro** tier. Sources disagree on some details, so confirm.
+## 0. Know the costs (verify on Payhip's pricing page)
+Third-party reviews we found say: **free plan = 5% per sale**, plus Stripe/PayPal card processing (about 2.9% + 30¢ in the US). Paid plans lower the percentage (sources disagree on exact tiers: ~2% at $29/mo, 0% at $99/mo). On a $25 sale that's roughly $2.30 total fees on the free plan.
 
-**What that means for the marketing plan:**
-- Selling the PDF and a free lead magnet works on the lower tier.
-- Launch-price discount codes, affiliates, and built-in email flows may need Pro. Alternative: start on Creator, set the launch price directly, use a free email tool (MailerLite/Kit/Beehiiv) for email, and upgrade only when affiliates matter.
-- Cheaper alternative if you want to test first: Gumroad or Payhip (compare fees on their pricing pages).
+**Upgrade triggers:** move to a paid Payhip tier or Stan Store (see `05-stan-store-upgrade-kit.md`) once you are consistently selling about 15-25+ copies a month, or when you need affiliate and email features that your plan lacks.
 
 ## 1. Account (you do this, ~10 min)
-1. Go to stan.store and sign up with the business email.
-2. Pick a username → your store link is `stan.store/yourname`. Suggested: `teamsmithhomes`.
-3. Connect **Stripe** (and/or PayPal) for payments. Stripe will ask for your legal name, business type, bank account, and ID. Only you can enter these.
+1. Go to payhip.com and sign up with your business email.
+2. Choose your store name: **Team Smith Homes**.
+3. Connect **Stripe** and/or **PayPal** for payments. Stripe will ask for your legal name, business type, bank account, and ID. Only you can enter these.
 4. Turn on two-factor authentication.
+5. Add a support email and your store logo (`assets/logo-white.png` on a navy square, or the navy logo on white).
 
-## 2. Store profile
-- **Profile image:** `assets/logo-white.png` on a navy square (or the navy logo on white).
-- **Display name:** Team Smith Homes
-- **Bio (≤150 chars):** `AI prompts & workflows for busy Realtors. Get your evenings back. Free prompts ↓`
-- **Link order:** (1) Free: 3 AI Prompts for Agents (2) The 15-Minute Agent (paid) (3) Instagram / LinkedIn.
+## 2. Store basics
+- **Store name:** Team Smith Homes
+- **Tagline:** `AI prompts & workflows for busy Realtors.`
+- **Contact/support email:** your business email (not shown to me; you enter it)
+- Add a **privacy policy and terms** link. Payhip provides default pages; review them.
 
-## 3. Product A: Free lead magnet
-- **Type:** Lead magnet / free digital download (email required)
+## 3. Product A: Free lead magnet (set price to $0 / "pay what you want" at $0, or use your email tool)
+- **Type:** Digital download, free, or a signup form on your email tool that delivers the PDF
 - **Title:** Free: 3 AI Prompts Every Agent Can Use Tomorrow
 - **Description:** `Three copy-and-paste prompts that save busy Realtors hours: a Morning Briefing, a Listing Launch package, and a Speed-to-Lead reply. Enter your email and I'll send it right over.`
 - **File:** create a 3–4 page PDF from Chapter 3 workflows 1–3 (your own wording). *(I can build this next.)*
@@ -71,7 +69,7 @@ Educational content, not legal advice. No income claims or guarantees.
 ```
 Thanks for grabbing The 15-Minute Agent!
 
-Your download: [Stan delivers the file automatically. Link it here too]
+Your download: [Payhip emails the download link automatically; keep this line if your message allows a link]
 
 Start with Chapter 2 (about 30 minutes). Do that and everything else gets easier.
 
@@ -91,10 +89,13 @@ Know an agent who'd like this? Forward this email.
 - *Can I share it with my team?* Individual license; ask about team licenses.
 
 ## 7. Test before you tell anyone
-- [ ] Buy your own product (use a 100% code if your plan has codes, or buy for real and refund yourself).
+- [ ] Create a 100% discount code (if available on your plan) or buy it yourself and refund.
 - [ ] Confirm the PDF downloads on phone and desktop.
-- [ ] Confirm the lead magnet email arrives (check spam).
-- [ ] Check the store on your phone. Most agents will open it there.
-- [ ] Add a privacy policy/terms link and your support email.
+- [ ] Confirm the delivery email arrives (check spam).
+- [ ] Open the product page on your phone. Most agents will see it there.
+- [ ] Confirm the refund policy shows on the page.
 
-## 8. Then follow `03-marketing-plan.md`, Day 3 onward.
+## 8. Email list (free tool, any platform)
+Use MailerLite, Kit, or Beehiiv (check each free tier) for the free lead magnet and the 5-email nurture. Keep your list there so you can switch stores later without losing it. Include an unsubscribe link and your mailing address.
+
+## 9. Then follow `03-marketing-plan.md`.
